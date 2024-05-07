@@ -1,4 +1,5 @@
-<center><img src="logo_v2.png" alt="drawing" width="60%"/></center>
+<center><img src="logo_v2.png" alt="drawing" width="50%"/></center>
+
 # POS2IDON
 
 Pipeline for Ocean Features Detection with Sentinel-2.
