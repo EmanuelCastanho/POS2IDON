@@ -1,4 +1,4 @@
-<center><img src="logo_v2.png" alt="drawing" width="50%"/></center>
+<img align="left" width="19%" src="logo_v2.png" alt="Logo">
 
 # POS2IDON
 
