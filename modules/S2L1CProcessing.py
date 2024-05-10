@@ -164,9 +164,11 @@ def download_s2l1c_cdse(cdse_user, cdse_pass, url_safe, output_folder):
             response = session.head(url, allow_redirects=False)
 
         response = session.get(url, stream=True)
-        while response.status_code != 200:
+        timeout = 0
+        while (response.status_code != 200) and (timeout != 5):
             time.sleep(5)
             response = session.get(url, stream=True)
+            timeout += 1
 
         # Download
         content_length = int(response.headers["Content-Length"])
